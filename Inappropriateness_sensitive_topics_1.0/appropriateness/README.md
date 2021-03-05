@@ -1,4 +1,4 @@
-**Appropriateness dataset**
+## Appropriateness dataset
 
 The appropriateness dataset contains Russian sentences labelled for the appropriateness and the presence of sensitive topics. The files contain the following columns:
 - text
