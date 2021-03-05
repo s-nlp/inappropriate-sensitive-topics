@@ -1,4 +1,4 @@
-**Sensitive topics dataset**
+## Sensitive topics dataset
 
 The sensitive topics dataset contains Russian sentences labelled for the presence of sensitive topics. The data files contain the following columns:
 - text
