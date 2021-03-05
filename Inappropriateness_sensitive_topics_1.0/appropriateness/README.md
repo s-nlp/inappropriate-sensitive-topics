@@ -16,4 +16,4 @@ We also provide scripts for training and running models on the dataset:
 - ``Inappropriateness_training.ipynb`` -- training of a model on the data
 - ``Inappropriateness_classifier_inference.ipynb`` -- running of the pre-trained model
 
-The pre-trained model trained on this data can be downloaded [here](https://drive.google.com/file/d/1MRY9dIFllHH_aB0wgc2NLg2e3XCJUITm/view?usp=sharing). The ``Inappropriateness_classifier_inference.ipynb`` notebook contains the code for downloading the model.
+The model trained on this data can be downloaded [here](https://drive.google.com/file/d/1MRY9dIFllHH_aB0wgc2NLg2e3XCJUITm/view?usp=sharing). The ``Inappropriateness_classifier_inference.ipynb`` notebook contains the code for downloading the model.
