@@ -24,7 +24,7 @@ The sensitive topics dataset contains Russian sentences labelled for the presenc
 
 The folder contains the following files:
 - ``Sensitive_topics.csv`` -- all data labelled for sensitive topics (29,209 instances)
-- ``Sensitive_topics_crowdsource_only.csv`` -- the subset of the data labelled by human workers 
+- ``Sensitive_topics_crowdsource_only.csv`` -- the subset of the data labelled by human workers (9,945 instances)
 - ``train.csv``, ``val.csv``, ``test.csv`` -- data separated into training, validation, and test subsets in proportion 80:10:10. 
 
 We also provide scripts for training and running models on the dataset:
