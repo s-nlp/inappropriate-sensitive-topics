@@ -32,4 +32,4 @@ We also provide scripts for training and running models on the dataset:
 - ``Sensitive_inference.ipynb`` -- running of the pre-trained model
 - ``target_vaiables_id2topic_dict.json`` -- a convenience file for running predictions by the pre-trained model. It contains the mapping from ids assigned by the model to the labels.
 
-The pre-trained model trained on this data can be downloaded [here](https://drive.google.com/file/d/1u_g7CSJPYUHuRc6CaoLn1tKhJ6t8kQxF/view?usp=sharing). The ``Sensitive_inference.ipynb`` notebook contains the code for downloading the model.
+The model trained on this data can be downloaded [here](https://drive.google.com/file/d/1u_g7CSJPYUHuRc6CaoLn1tKhJ6t8kQxF/view?usp=sharing). The ``Sensitive_inference.ipynb`` notebook contains the code for downloading the model.
