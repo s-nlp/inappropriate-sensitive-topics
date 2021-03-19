@@ -37,7 +37,11 @@ If you find this repository helpful, feel free to cite our publication:
     address = "Kyiv, Ukraine"
 }
 ```
+## Contact
 
+If you have any question about the system write an issue or drop an email to [Nikolay](mailto:N.Babakov@skoltech.ru)
+
+## License
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
