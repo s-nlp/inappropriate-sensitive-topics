@@ -12,6 +12,21 @@ The first version of the datasets was presented at the workshop for Balto-Slavic
 This repository containes extended and final versions of sensitive topics and inappropriate messages datasets.
 The final vesrion of sensitive topics dataset consists of 33303 samples, final version of inappropriate messages dataset consists of 163332 samples.
 
+## Citation
+
+If you find this repository helpful, feel free to cite our publication:
+
+```
+@inproceedings{babakov-etal-2021-bsnlp,
+    title = "Detecting Inappropriate Messages on Sensitive Topics that Could Harm a Company's Reputation",
+    author = "Babakov, Nikolay and Logacheva, Varvara and Kozlova, Olga and Semenov, Nikita and Panchenko, Alexander",
+    booktitle = "To appear in the Proceedings of the 8th Workshop on Balto-Slavic Natural Language Processing",
+    month = April,
+    year = "2021",
+    address = "Kyiv, Ukraine"
+}
+```
+
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
