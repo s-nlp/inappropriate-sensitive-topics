@@ -8,12 +8,12 @@ You can learn more information about the concept of sensitive topics and inappro
 The datasets were manually labelled via Yandex.Toloka.
 To the best of our knowledge, these are the first datasets with such labelling for Russian as well as any other languages.
 
-[Version1](Version1)
+[Version1](https://github.com/skoltech-nlp/inappropriate-sensitive-topics/tree/main/Version1)
 
 This folder contains first version of the datasets.  The sensitive topicsdatasets consist of 25,679,  the inappropriate messages dataset consists of 82,063 samples.
 This version of the datasets was presented at the workshop for Balto-Slavic NLP at EACL-2021 conference.
 
-[Version2](Version2)
+[Version2](https://github.com/skoltech-nlp/inappropriate-sensitive-topics/tree/main/Version2)
 
 This folder containes final extended versions of sensitive topics and inappropriate messages datasets.
 The final vesrion of sensitive topics dataset consists of 33303 samples, final version of inappropriate messages dataset consists of 163332 samples.
