@@ -21,7 +21,7 @@ The final vesrion of sensitive topics dataset consists of 33,303 samples, final 
 ## Hugging Face model hub
 
 We have released the models trained on both datasests in Hugging Face model hub.
-The sensitive topics classifier can be found [here](https://huggingface.co/Skoltech/russian-sensitive-topics), inappropriateness classifier can be found [here](https://huggingface.co/Skoltech/inappropriate-messages-high-confidence)
+The sensitive topics classifier can be found [here](https://huggingface.co/Skoltech/russian-sensitive-topics), inappropriateness classifier can be found [here](https://huggingface.co/Skoltech/russian-inappropriate-messages)
 
 ## Citation
 
