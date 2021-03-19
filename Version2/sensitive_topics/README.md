@@ -1,19 +1,34 @@
-## Appropriateness dataset
+## Sensitive topics dataset
 
-The appropriateness dataset contains Russian sentences labelled for the appropriateness and the presence of sensitive topics. The files contain the following columns:
+The sensitive topics dataset contains Russian sentences labelled for the presence of sensitive topics. The data files contain the following columns:
 - text
-- inappropriateness score (0 to 1)
-- whether the topic was assigned manually or automatically (0/1)
-- 18 sensitive topics (0/1 for each topic)
-- no sensitive topic (0/1)
-- toxicity score (0 to 1 assigned automatically)
+- score from 0 to 1 indicating the presence of a sensitive topic:
+  - real crime
+  - online crime
+  - drugs
+  - gambling
+  - pornography
+  - prostitution
+  - slavery
+  - suicide
+  - terrorism
+  - weapons
+  - body shaming
+  - health shaming
+  - politics
+  - racism
+  - religion
+  - sexual minorities
+  - sexism
+  - social_injustice
 
 The folder contains the following files:
-- ``Appropriateness.csv`` -- all data labelled for the appropriateness (163,332 instances)
+- ``sensitive_topics.csv`` -- all data labelled for sensitive topics (33,303 instances)
 - ``train.csv``, ``val.csv``, ``test.csv`` -- data separated into training, validation, and test subsets in proportion 80:10:10. 
 
 We also provide scripts for training and running models on the dataset:
 - ``Training.ipynb`` -- training of a model on the data
 - ``Inference.ipynb`` -- running of the pre-trained model
+- ``id2topic.json`` -- a convenience file for running predictions by the pre-trained model. It contains the mapping from ids assigned by the model to the labels.
 
-The model trained on 100% confidence samples from this data can be used via tranformes API as [Skoltech/inappropriate-messages-high-confidence](https://huggingface.co/Skoltech/inappropriate-messages-high-confidence). 
+The model trained on this data can be used via tranformes API as [Skoltech/russian-sensitive-topics](https://huggingface.co/Skoltech/russian-sensitive-topics). 
