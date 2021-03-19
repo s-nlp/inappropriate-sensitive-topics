@@ -8,8 +8,9 @@ To the best of our knowledge, these are the first datasets with such labelling f
 The first version of the datasets was presented at the workshop for Balto-Slavic NLP at EACL-2021 conference.
 
 [Version2](Version2)
-This repository containes extended and final versions of sensitive topics and appropriateness datasets.
-The final vesrion of sensitive topics dataset consists of 33303 samples, final version of appropriateness dataset consists of 163332 samples.
+
+This repository containes extended and final versions of sensitive topics and inappropriate messages datasets.
+The final vesrion of sensitive topics dataset consists of 33303 samples, final version of inappropriate messages dataset consists of 163332 samples.
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
