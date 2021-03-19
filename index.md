@@ -1,37 +1,52 @@
-## Welcome to GitHub Pages
+# Inappropriate Sensitive Topics
 
-You can use the [editor on GitHub](https://github.com/skoltech-nlp/inappropriate-sensitive-topics/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This repository contains two versions of two datasets of Russian texts. 
+The first dataset is dedicated to sensitive topics which have a high chance of yielding a discussion which can harm the speaker’s reputation.
+The second dataset is dedicted to inappropriate messages -- the messages on a sensitive topic which can frustrate the reader and/or harm the reputation of the speaker.
+You can learn more information about the concept of sensitive topics and inappropriate messages in the pre-print of [our article](https://arxiv.org/abs/2103.05345) presented at the workshop for [Balto-Slavic NLP at EACL-2021 conference](http://bsnlp.cs.helsinki.fi/).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The datasets were manually labelled via Yandex.Toloka.
+To the best of our knowledge, these are the first datasets with such labelling for Russian as well as any other languages.
 
-### Markdown
+[Version1](Version1)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This folder contains first version of the datasets.  The sensitive topicsdatasets consist of 25,679,  the inappropriate messages dataset consists of 82,063 samples.
+This version of the datasets was presented at the workshop for Balto-Slavic NLP at EACL-2021 conference.
 
-```markdown
-Syntax highlighted code block
+[Version2](Version2)
 
-# Header 1
-## Header 2
-### Header 3
+This folder containes final extended versions of sensitive topics and inappropriate messages datasets.
+The final vesrion of sensitive topics dataset consists of 33303 samples, final version of inappropriate messages dataset consists of 163332 samples.
 
-- Bulleted
-- List
+## Hugging Face model hub
 
-1. Numbered
-2. List
+We have released the models trained on both datasests in Hugging Face model hub.
+The sensitive topics classifier can be found [here](https://huggingface.co/Skoltech/russian-sensitive-topics), inappropriateness classifier can be found [here](https://huggingface.co/Skoltech/inappropriate-messages-high-confidence)
 
-**Bold** and _Italic_ and `Code` text
+## Citation
 
-[Link](url) and ![Image](src)
+If you find this repository helpful, feel free to cite our publication:
+
+```
+@inproceedings{babakov-etal-2021-bsnlp,
+    title = "Detecting Inappropriate Messages on Sensitive Topics that Could Harm a Company's Reputation",
+    author = "Babakov, Nikolay and Logacheva, Varvara and Kozlova, Olga and Semenov, Nikita and Panchenko, Alexander",
+    booktitle = "In the Proceedings of the 8th Workshop on Balto-Slavic Natural Language Processing (BSNLP)",
+    month = April,
+    year = "2021",
+    address = "Kyiv, Ukraine"
+}
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Contact
 
-### Jekyll Themes
+If you have any question about the system write an issue or drop an email to [Nikolay](mailto:N.Babakov@skoltech.ru)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/skoltech-nlp/inappropriate-sensitive-topics/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## License
 
-### Support or Contact
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png
