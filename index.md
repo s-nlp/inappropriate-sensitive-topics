@@ -16,7 +16,7 @@ This version of the datasets was presented at the workshop for Balto-Slavic NLP 
 [Version2](https://github.com/skoltech-nlp/inappropriate-sensitive-topics/tree/main/Version2)
 
 This folder containes final extended versions of sensitive topics and inappropriate messages datasets.
-The final vesrion of sensitive topics dataset consists of 33303 samples, final version of inappropriate messages dataset consists of 163332 samples.
+The final vesrion of sensitive topics dataset consists of 33,303 samples, final version of inappropriate messages dataset consists of 163,332 samples.
 
 ## Hugging Face model hub
 
