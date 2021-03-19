@@ -1,4 +1,4 @@
-# inappropriate-sensitive-topics
+# Inappropriate Sensitive Topics
 
 [Version1](Version1)
 
@@ -20,7 +20,7 @@ If you find this repository helpful, feel free to cite our publication:
 @inproceedings{babakov-etal-2021-bsnlp,
     title = "Detecting Inappropriate Messages on Sensitive Topics that Could Harm a Company's Reputation",
     author = "Babakov, Nikolay and Logacheva, Varvara and Kozlova, Olga and Semenov, Nikita and Panchenko, Alexander",
-    booktitle = "To appear in the Proceedings of the 8th Workshop on Balto-Slavic Natural Language Processing",
+    booktitle = "In the Proceedings of the 8th Workshop on Balto-Slavic Natural Language Processing (BSNLP)",
     month = April,
     year = "2021",
     address = "Kyiv, Ukraine"
