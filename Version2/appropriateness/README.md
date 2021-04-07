@@ -3,9 +3,9 @@
 The appropriateness dataset contains Russian sentences labelled for the appropriateness and the presence of sensitive topics. The files contain the following columns:
 - text
 - inappropriateness score (0 to 1)
-- whether the topic was assigned manually or automatically (0/1)
+- human_labeled - whether the topic was assigned manually or automatically (0/1)
 - 18 sensitive topics (0/1 for each topic)
-- no sensitive topic (0/1)
+- none - no sensitive topic (0/1)
 - toxicity score (0 to 1 assigned automatically)
 
 The folder contains the following files:
