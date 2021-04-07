@@ -19,4 +19,4 @@ We also provide scripts for training and running models on the dataset:
 
 We also manually created list of appropriate and inappropriate samples ``manual_labelled.csv`` and compared our models performance with another existing classic toxic model with this data in ``compare_manual_data.ipynb``
 
-The model trained on 100% confidence samples from this data can be used via tranformes API as [Skoltech/inappropriate-messages-high-confidence](https://huggingface.co/Skoltech/inappropriate-messages-high-confidence). 
+The model trained on 100% confidence samples from this data can be used via tranformes API as [Skoltech/russian-inappropriate-messages](https://huggingface.co/Skoltech/russian-inappropriate-messages). 
