@@ -53,13 +53,21 @@ The sensitive topics classifier can be found [here](https://huggingface.co/Skolt
 If you find this repository helpful, feel free to cite our publication:
 
 ```
-@inproceedings{babakov-etal-2021-bsnlp,
-    title = "Detecting Inappropriate Messages on Sensitive Topics that Could Harm a Company's Reputation",
-    author = "Babakov, Nikolay and Logacheva, Varvara and Kozlova, Olga and Semenov, Nikita and Panchenko, Alexander",
-    booktitle = "In the Proceedings of the 8th Workshop on Balto-Slavic Natural Language Processing (BSNLP)",
-    month = April,
+@inproceedings{babakov-etal-2021-detecting,
+    title = "Detecting Inappropriate Messages on Sensitive Topics that Could Harm a Company{'}s Reputation",
+    author = "Babakov, Nikolay  and
+      Logacheva, Varvara  and
+      Kozlova, Olga  and
+      Semenov, Nikita  and
+      Panchenko, Alexander",
+    booktitle = "Proceedings of the 8th Workshop on Balto-Slavic Natural Language Processing",
+    month = apr,
     year = "2021",
-    address = "Kyiv, Ukraine"
+    address = "Kiyv, Ukraine",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2021.bsnlp-1.4",
+    pages = "26--36",
+    abstract = "Not all topics are equally {``}flammable{''} in terms of toxicity: a calm discussion of turtles or fishing less often fuels inappropriate toxic dialogues than a discussion of politics or sexual minorities. We define a set of sensitive topics that can yield inappropriate and toxic messages and describe the methodology of collecting and labelling a dataset for appropriateness. While toxicity in user-generated data is well-studied, we aim at defining a more fine-grained notion of inappropriateness. The core of inappropriateness is that it can harm the reputation of a speaker. This is different from toxicity in two respects: (i) inappropriateness is topic-related, and (ii) inappropriate message is not toxic but still unacceptable. We collect and release two datasets for Russian: a topic-labelled dataset and an appropriateness-labelled dataset. We also release pre-trained classification models trained on this data.",
 }
 ```
 
