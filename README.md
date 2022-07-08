@@ -18,6 +18,11 @@ This version of the datasets was presented at the workshop for Balto-Slavic NLP 
 This folder containes final extended versions of sensitive topics and inappropriate messages datasets.
 The final vesrion of sensitive topics dataset consists of 33303 samples, final version of inappropriate messages dataset consists of 163332 samples.
 
+[Version3](Version3)
+
+This is the final version of our dataset. Sensitive topics dataset still has 33,303 samples. Inappropriate messages dataset is shortened by confidence (we leave only the ones with 0.9 and above) and by agreement (we leave only the samples where either all or all but one annotators agree on the value of sample, it results in Krippendorf's alpha 0.65), so now it consist of 124,597 samples. This version of the datasets is presented to Language resources and Evaluation Journal, where we currently have our article under review. 
+
+
 ## Hugging Face model hub
 
 We have released the models trained on both datasests in Hugging Face model hub.
