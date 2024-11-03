@@ -3,7 +3,7 @@
 This repository contains two versions of two datasets of Russian texts. 
 The first dataset is dedicated to sensitive topics which have a high chance of yielding a discussion which can harm the speaker’s reputation.
 The second dataset is dedicted to inappropriate messages -- the messages on a sensitive topic which can frustrate the reader and/or harm the reputation of the speaker.
-You can learn more information about the concept of sensitive topics and inappropriate messages in the pre-print of [our article](https://arxiv.org/abs/2103.05345) presented at the workshop for [Balto-Slavic NLP at EACL-2021 conference](http://bsnlp.cs.helsinki.fi/).
+You can learn more information about the concept of sensitive topics and inappropriate messages in the pre-print of [our article](https://arxiv.org/abs/2103.05345) presented at the workshop for [Balto-Slavic NLP at EACL-2021 conference](http://bsnlp.cs.helsinki.fi/) and [Language Resources and Evaluation Journal](https://link.springer.com/article/10.1007/s10579-023-09682-z).
 
 The datasets were manually labelled via Yandex.Toloka.
 To the best of our knowledge, these are the first datasets with such labelling for Russian as well as any other languages.
