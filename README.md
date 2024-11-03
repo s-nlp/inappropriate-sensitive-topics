@@ -64,7 +64,7 @@ If you find this repository helpful, cite the following papers related to the da
 ```
 ## Contact
 
-If you have any question about the system write an issue or drop an email to [Nikolay](mailto:N.Babakov@skoltech.ru)
+If you have any question about the system write an issue or drop an email to [Nikolay](mailto:bbkhse@gmail.com)
 
 ## License
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
